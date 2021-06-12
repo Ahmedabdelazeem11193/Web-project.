@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HELP AND FEEDBACK</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+ <script>
+            function submission()
+            {var proplem=document.getElementById('feedback').value;
+            if(proplem=="")
+            alert('you must fill the field') ;
+        else
+            alert('your proplem was sent succesfully and we will solve it soon');
+    }
+            </script>
+        <style>
+
+            div{margin-left: 32%}
+            input[type=submit] {font-size: 20px;margin-left: 18%;}
+            textArea{margin: 10px;font-size: 20px;max-width: 60%;}
+              h1{text-align: center;font-size: 60px;}
+            h1 a {color:white;}
+            #v:hover{opacity: 1;}
+             strong{color: chartreuse;}
+             a:link{text-decoration: none;color: black}
+            body{background-image: url("images-1.jpeg");background-repeat:no-repeat;background-size:  cover;position: relative;}
+            
+        </style>
+    </head>
+    <body>
+        <h1> <a href="HOME.html" target="_self" id="v"> learn <strong>&amp;</strong>  discover</a>  </h1>  
+        <div id="sent">
+            <form name="feedback" onsubmit="return sumission()" method="post">
+                <textarea cols="40" rows="15" maxlength="1500"  id="feedback" >tell us your proplem </textarea><br>
+        <input type="submit" value="send proplem"  onclick=" return submission()">
+        
+        </form>  
+        </div>
+</html>

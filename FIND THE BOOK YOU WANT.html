@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>FIND YOUR BOOK</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            strong{color: chartreuse;}
+                       a:link{text-decoration: none;color: black}
+
+              h1{text-align: center;font-size: 60px;}
+            h1 a {color:white;}
+            #v:hover{opacity: .99;}
+             body{background-image: url("images-1.jpeg");background-repeat:no-repeat;background-size:  cover;position: relative;}
+               #b{float: left;height: 60%;width: 40%;margin-left: 13%}
+           #a{float:right;height: 60%;width: 40%;margin: 10px} 
+           .ri:hover,.le:hover {opacity: .85;}
+          
+            
+            body{background-image: url("images-1.jpeg");background-repeat:no-repeat;background-size:  cover;position: relative;}
+           .ri   { border: 3px solid white;color: white;font-size: 100% ; width: 70%;
+             height:30%;padding: 4%;background-image: url("images-2.jpeg");
+              }
+          .le  { border: 3px solid white;color: white;font-size: 100% ;padding: 4%; max-width: 600px;width: 70%;
+             height: 30%;background-image: url("images-2.jpeg");
+              }
+
+        
+            input[type=search]{width: 60%; margin-left:20%;padding: 5px;font-size: 20px;margin-top: 10px;}
+            #d{margin-left: 45%;padding: 5px;font-size: 20px;text-align: center;width: 100px;}
+           
+           
+        </style>
+            
+            
+    </head>
+    <body>
+       
+                <h1> <a href="HOME.html" target="_self" id="v"> learn <strong>&amp;</strong>  discover</a>  </h1>  
+
+ <form>
+           <input type="search" name="search" placeholder="search the book you want" >
+           <input id="d" type="submit" name="submit " value="search" onclick="alert('we don’t have a database at the moment , you can search later')"> 
+       </form>
+      
+   <div id="b">
+        <a href="https://manybooks.net/search-book?field_genre%5B38%5D=38" target="_blank">   <p class="le" > ROMANCE</p></a>
+      <a href="https://manybooks.net/search-book?field_genre%5B10%5D=10" target="_blank">     <p class="le" >ACTION & ADVENTURE</p></a> 
+        <a href="https://manybooks.net/search-book?field_genre%5B32%5D=32&field_genre%5B12%5D=12" target="_blank">    <p class="le" >BIOGRAPHY & HOSTORY</p></a>
+         <a href="https://manybooks.net/search-book?field_genre%5B30%5D=30" target="_blank">   <p class="le" >LITERARY FICTION</p></a>
+                      
+
+        </div>
+       <div id="a"> 
+          <a href="https://www.bookrix.com/books;computers,id:9.html" target="_blank">  <p class="ri" > COMPUTER </p></a> 
+          
+      <a href="http://www.sciencebooksonline.info" target="_blank">  <p class="ri" >SCIENCE</p></a>
+      <a href="https://hacktheentrepreneur.com/best-business-books/" target="_blank">  <p class="ri" >Business</p></a>
+          <a href="https://www.bookrix.com/books;foreign-language-study,id:17.html" target="_blank">  <p class="ri" >STUDY FORIGEN LANGUAGES </p></a>
+          
+
+    </body>
+</html>

@@ -1,0 +1,286 @@
+b {
+  font-size: 15px;
+  color: white;
+  opacity: 0;
+}
+b:hover {
+  opacity: 1;
+}
+footer {
+  font-size: 30px;
+  text-align: center;
+}
+div p {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  opacity: 0;
+  text-align: center;
+  margin-left: 7%;
+  margin-top: 50px;
+}
+div p:hover {
+  opacity: 1;
+}
+
+#readorpuplish {
+  margin: 30px;
+  height: 100px;
+}
+ul {
+  list-style-type: none;
+  display: inline;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin-left: 8%;
+  background-image: url("images-2.jpeg");
+}
+ul li:hover {
+  background: #555;
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  width: auto;
+  display: none;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+}
+ul li ul li a {
+  display: block !important;
+}
+ul li ul li:hover {
+  background: #666;
+}
+
+ul li ul {
+  display: none;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  visibility: hidden;
+}
+caption {
+  padding: 5px;
+  width: 600px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+tr {
+  padding: 10px;
+  background-image: url("7.jpeg");
+  text-align: center;
+  background-size: cover;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+li a:link {
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+legend {
+  text-align: center;
+  font-size: 20px;
+}
+fieldset {
+  width: 20%;
+  opacity: 1;
+  margin-left: 40%;
+  border: 5px solid burlywood;
+  color: white;
+  background-image: url("8.jpeg");
+  background-size: cover;
+}
+
+input[type="text"] {
+  width: 100px;
+  width: auto;
+  padding: 5px;
+  font-size: 15px;
+}
+input[type="password"] {
+  width: 100px;
+  width: auto;
+  padding: 5px;
+  font-size: 15px;
+}
+.a {
+  text-transform: uppercase;
+  border: 3px solid white;
+  color: white;
+  font-size: 30px;
+  padding: 4%;
+  max-width: 600px;
+  width: 40%;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 100%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a:hover,
+.b:hover {
+  color: black;
+  border: 3px solid black;
+}
+
+.b {
+  text-transform: uppercase;
+  border: 3px solid white;
+  color: white;
+  font-size: 30px;
+  padding: 4%;
+  max-width: 600px;
+  width: 40%;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+strong {
+  color: chartreuse;
+}
+input[type="search"] {
+  width: 50%;
+  margin-left: 25%;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#d {
+  margin-left: 45%;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+h1 a {
+  color: white;
+}
+#v:hover {
+  opacity: 0.99;
+}
+
+body {
+  background-image: url("images-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+strong {
+  color: chartreuse;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+#b {
+  float: left;
+  height: 50%;
+  width: 40%;
+  margin-left: 13%;
+}
+#a {
+  float: right;
+  height: 50%;
+  width: 40%;
+  margin: 10px;
+}
+.ri:hover,
+.le:hover {
+  color: black;
+  border-color: #000;
+}
+
+.ri {
+  border: 3px solid white;
+  color: white;
+  font-size: 25px;
+  width: 70%;
+  height: 30%;
+  padding: 4%;
+  opacity: 0.99;
+}
+.le {
+  border: 3px solid white;
+  color: white;
+  font-size: 25px;
+  padding: 4%;
+  max-width: 600px;
+  width: 70%;
+  opacity: 0.99;
+  height: 30%;
+}
+
+input[type="search"] {
+  width: 60%;
+  margin-left: 20%;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#d {
+  margin-left: 45%;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  margin-left: 18%;
+}
+textArea {
+  margin: 10px;
+  font-size: 20px;
+  max-width: 60%;
+}

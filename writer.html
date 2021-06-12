@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>writer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+           
+        <style>
+            div{margin-left: 32%}
+            input[type=submit] {font-size: 20px;margin-left: 18%;}
+            input [type=file]{width:90px;}
+            textArea{margin: 10px;font-size: 20px;max-width: 60%;}
+              h1{text-align: center;font-size: 60px;}
+            h1 a {color:white;}
+            #v:hover{opacity: .99;}
+             strong{color: chartreuse;}
+             a:link{text-decoration: none;color: white;}
+            body{background-image: url("images-1.jpeg");background-repeat:no-repeat;background-size:  cover;position: relative;}
+     
+        </style>
+               <script type="text/javascript">
+function submission()
+
+{
+    var files=document.getElementById("files").value;
+    var mobilenumber=document.getElementById("mob").value;
+      var acceptmobile=/^01[0125]\d{8}$/
+    if (files=="") 
+        {alert('you must choose a file');return false;}
+   // if (mobilenumber="") {alert('you must enter your number');raturn false;}
+     if (!acceptmobile.test(mobilenumber))
+      {alert('you must enter a valid number');return false;}
+
+    alert('your file was sent successfully and we will call you soon');
+    return true;
+}
+            </script>
+    </head>
+    <body>
+        <h1> <a href="HOME.html" target="_self" id="v"> learn <strong>&amp;</strong>  discover</a>  </h1>  
+        <div id="wirter">
+            <form onsubmit="return submission()">
+                select file :-<br><br>
+            <input type="file" placeholder="select your file" required id="files"><br><br>
+            leave your phone number :-<br><br>
+            <input type="text" placeholder="add your number" id="mob"><br><br>
+            <textarea cols="30" rows="15" maxlength="1000"> if you have additional thing to tell us</textarea><br>
+            <input type="submit" name="submit" value="send" >
+        </form>
+        </div>
+      
+      
+</html>

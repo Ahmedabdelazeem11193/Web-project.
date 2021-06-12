@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <title>LEARN & DISCOVER</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0  maximum-scale=1.5" >
+        <meta name="author" content="Ahmed Abdelazeem">
+        <meta name="search" content="reading books,online books,free books">
+
+
+
+  <script type="text/javascript">
+    function passwordconfirmation()
+    {
+      var password=document.getElementById('pass').value;
+      var submit=/^[A-Z][^\s]{7}$/;
+      var finddigit=/[\d]/;
+      var findspch=/[@#&*_-]/;
+      var email=document.getElementById('email').value;
+      var acceptemail=/^([a-zA-z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,10})(.[a-z]{2,10})?$/;
+      var mobilenumber=document.getElementById("mob").value;
+      var acceptmobile=/^01[0125]\d{8}$/
+
+
+      if (password==""|email==""|fname==""|lname=="") 
+
+        {alert('you must fill all fields');
+               return false;}
+          
+           
+            if (!acceptemail.test(email)) 
+         
+         {
+          document.getElementById("correctemail").innerHTML="email is not available";
+          return false;
+         }
+
+            if (!submit.test(password))
+
+            { alert('password must be 8 characters and starts with uppercase letter');
+            return false;}
+
+            
+              if (!finddigit.test(password))
+
+                {document.getElementById("correctpass").innerHTML="password must contain a number and a special character";
+
+                     return false;}
+                     if (!findspch.test(password)) 
+                     {
+                      document.getElementById("correctpass").innerHTML="password must contain a number and a special character";
+
+                     return false;
+                     }
+              
+                       
+
+            
+            
+              
+
+                 
+          
+         
+         if (!acceptmobile.test(mobilenumber)) {document.getElementById("correctmob").innerHTML="enter avaialable mobile phone";return false;}
+
+         alert('your email has been created successfully');
+         return true;
+         
+         
+         
+         
+         
+    }
+  </script>
+
+
+
+        <style>
+          
+          
+        </style>
+    </head>
+    <body>
+             
+
+        <h1> <a href="HOME.html" target="_self" id="v"> learn <strong>&amp;</strong>  discover</a> <br>
+          <b > knoweledge is hidden untill you search it </b></h1>  
+ 
+        <div>
+
+            <ul>
+                
+              
+                <li><a href="HOME.html">HOME</a></li>   
+            <li>
+                     
+                      <a> TRENDING BOOKS </a> 
+                  <ul>
+                    <li><a href="https://www.pdfquran.com" target="_blank">THE HOLLY QURAN</a></li>  
+                                          <li> <a href="https://edu.glogster.com/glog/download-the-glass-hotel-a-novel-pdf-epub/3atl3b1nr4m" target="_blank"> THE GLASS HOTEL </a>  </li>
+                      <li>  <a href="https://www.reddit.com/user/pdfus0224/comments/f8o39r/download_pdfthe_mirror_and_the_light_hilary/" target="_blank"> THE MIRROR AND THE LIGHT</a> </li>
+              <li>   <a href="https://www.e-bookdownloadfree.com/ebooks/free.php?book=my-dark-vanessa" target="_blank"> MY DARK VENSSA </a></li>
+                 </ul>
+            </li>
+                
+            
+             
+               <li><a href="QUOTES.html" target="_blank" > QUOTES </a></li> 
+           
+            <li><a href="HELP AND FEED BACK.html" target="_blank">HELP AND FEEDBACK</a> </li>
+      
+            
+        </ul>
+        </div>
+            
+      
+       
+
+        <form>
+           <input type="search" name="search" placeholder="search the book you want" >
+           <input id="d" type="submit" name="submit " value="search" onclick="alert('we don’t have a database at the moment , you can search later')"> 
+       </form> <div id="readorpuplish">
+       <a href="FIND THE BOOK YOU WANT.html" target="_blank" class="a">  
+       
+            EXPLORE  BOOKS       
+        </a> 
+        <a href="writer.html" target="_blank" class="b"> 
+         PUPLISH YOUR BOOK 
+        </a>  </div>
+        <hr>
+        <br><br>
+
+
+
+
+
+ <div >
+            <p  >&quot; not all people search for knowledge<br> and not everyone exploite the knoweldge he gets by searching or by chance
+               ...<br> don’t be one of them !!!... read and join the real world&quot;    __Ahmed Abdelazeem</p>
+            
+        </div>   
+          
+           
+  
+<form onsubmit="return passwordconfirmation() " id="c">
+  <fieldset>
+                <legend> CREAT YOUR ACCOUNT BENEFIT FROM OUR SERVICES</legend>
+  <input type="text" placeholder="first name" id="fname"><br>
+  <input type="text" placeholder="last name" id="lname"><br>
+  <p></p>
+  <input type="text" placeholder="email address" id="email">
+  <p id="correctemail"></p>
+  <input type="password" id="pass" placeholder="password"  >
+  <p id="correctpass" ></p>
+  <input type="text" placeholder="mobilenumber" id="mob">
+  <p id="correctmob"></p>
+  <input type="text" placeholder="address" id="add">
+  <p ></p>
+  <input type="radio" id="male" name="gender" value="male" checked>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  
+  
+
+  <button type="submit" onclick="we don’t have a database at the moment , you can search later">submit </button>
+</fieldset>
+</form>     
+          
+    </body>
+    
+</html>
